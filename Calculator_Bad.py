@@ -18,5 +18,15 @@ class Calculator:
     def square(self, x):
         return x ** 2
 
+    def add_five(self, x):
+        """Bad code because it is not DRY. Repeats same code that could be either done with a loop or simply adding five"""
+        x = x + 1
+        x = x + 1
+        x = x + 1
+        x = x + 1
+        x = x + 1
+        return x
+
+
 
 Calculator = Calculator()

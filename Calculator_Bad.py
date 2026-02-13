@@ -27,6 +27,11 @@ class Calculator:
         x = x + 1
         return x
 
+    def display_numbers(self, x, y):
+        """Example of YAGNI(You aren't going to need it) since you are inputing the numbers already"""
+        print(x)
+        print(y)
+
 
 
 Calculator = Calculator()

@@ -22,6 +22,9 @@ class Calculator:
         """This code is DRY because it was not repeating the same code"""
         return x + 5
     
-
+    def cube(self, x):
+        """This is an example of YAGNI because we removed the old method that was not needed and replaced with a more
+         appropriate one"""
+        return x ** 3
     
 Calculator = Calculator()
